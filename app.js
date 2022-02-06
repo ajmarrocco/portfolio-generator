@@ -34,7 +34,7 @@ const promptUser = () => {
             type: 'confirm',
             name: 'confirmAbout',
             message: 'Would you like to enter some information about yourself for an "About" section?',
-        default: true
+            default: true
         },
         {
             type: 'input',
